@@ -52,4 +52,4 @@ history = best_model.fit(
 )
 
 # Save the trained model to file
-best_model.save('../models/lstm_retail_model.keras')
+best_model.save('../models/lstm_wholesale_model.h5')

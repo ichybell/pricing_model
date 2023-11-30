@@ -19,8 +19,8 @@ data_path = os.path.join(BASEDIR, "data/")
 
 # Load necessary resources
 data = pd.read_pickle(data_path + 'feature_engineered_data.pkl')
-wholesale_model = load_model(model_path + 'lstm_wholesale_model.keras')
-retail_model = load_model(model_path + 'lstm_retail_model.keras')
+wholesale_model = load_model(model_path + 'lstm_wholesale_model.h5')
+retail_model = load_model(model_path + 'lstm_retail_model.h5')
 scaler = load(model_path + 'scaler.pkl')
 label_encoder_market = load(model_path + 'label_encoder_market.joblib')
 

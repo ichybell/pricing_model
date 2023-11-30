@@ -51,5 +51,7 @@ history = best_model.fit(
     verbose=1
 )
 
+# Save model
+best_model.save('../models/lstm_retail_model.h5')
 # Save the trained model to file
-best_model.save('../models/lstm_retail_model.keras')
+# best_model.save('../models/lstm_retail_model.keras')
