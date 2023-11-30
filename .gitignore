@@ -1,0 +1,7 @@
+venv/
+commands.txt
+.gcloudignore
+.dockerignore
+Dockerfile
+app.yaml
+uninstall.py
